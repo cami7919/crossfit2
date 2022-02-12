@@ -1,18 +1,17 @@
 body {
-  font-family: "Montserrat", sans-serif;
   font-family: "Open Sans Condensed", sans-serif;
   margin: 0px;
   box-sizing: border-box;
 }
 
 header, main {
-  margin: 3%;
+  margin: 5%;
 }
 
 h2 {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 600;
-  color: grey;
+  font-family: "Open Sans Condensed";
 }
 
 .poids {
@@ -27,7 +26,8 @@ h2 {
 
 .container_photo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 15%;
 }
 .container_photo .photo_profil {
   width: 30%;
@@ -40,6 +40,7 @@ h2 {
   font-weight: bold;
   color: aqua;
   margin-bottom: 1px;
+  margin-top: 0;
 }
 .container_photo .photo_profil p:nth-child(3) {
   text-align: center;
@@ -57,22 +58,24 @@ h2 {
   width: 100%;
   margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .workout_date {
   width: 40%;
 }
 .workout_temps p {
   font-size: 16px;
-  font-family: "montserrat";
+  font-family: "Roboto";
   padding-top: 10px;
 }
 .workout_date h2 {
-  margin-bottom: 1px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #c2bebe;
 }
 .workout_date p {
   font-size: 16px;
-  font-family: "montserrat";
+  font-family: "Roboto";
   margin-top: 1px;
 }
 .workout_graph {
@@ -85,19 +88,21 @@ h2 {
 .perf {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .perf_poids p {
   font-size: 16px;
-  font-family: "montserrat";
+  font-family: "Roboto";
   padding-top: 10px;
 }
 .perf_date h2 {
-  margin-bottom: 1px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #c2bebe;
 }
 .perf_date p {
   font-size: 16px;
-  font-family: "montserrat";
+  font-family: "Roboto";
   margin-top: 1px;
 }
 .perf_graph {

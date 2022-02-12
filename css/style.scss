@@ -1,19 +1,21 @@
 body
-{font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
+{font-family: 'Open Sans Condensed', sans-serif;
+    
 margin:0px;
 box-sizing: border-box;}
 
 
 header, main
-{   margin:3%;
+{   margin:5%;
 }
 
 h2
-{font-size:19px;
-    font-weight:600;
-color:grey;}
+{font-size:18px;
+font-weight:600;
+font-family: 'Open Sans Condensed'
+}
 
+$gris:rgb(194, 190, 190);
 
 
 .poids{
@@ -28,7 +30,8 @@ color:grey;}
 
 .container_photo{
     display:flex;
-justify-content:space-between;
+    justify-content:space-evenly;
+    gap:15%;
     .photo_profil{
         width:30%;
         img{
@@ -38,6 +41,7 @@ justify-content:space-between;
             font-weight:bold;
             color:aqua;
             margin-bottom:1px;
+            margin-top:0;
        }
         p:nth-child(3){
             text-align:center;
@@ -59,20 +63,22 @@ justify-content:space-between;
     width:100%;
     margin-top:20px;
         display:flex;
-        justify-content:space-evenly;
+        justify-content:space-between;
         &_date{
             width:40%;
         }
         &_temps p{
         font-size:16px;
-        font-family:"montserrat";
+        font-family:'Roboto';
         padding-top:10px;}
         &_date{
             h2{
-                margin-bottom:1px;}        
+                margin-bottom:10px;
+                margin-top:0;
+            color:rgb(194, 190, 190);}        
             p{
             font-size:16px;
-            font-family:"montserrat";
+            font-family:"Roboto";
             margin-top:1px;} 
         }
         &_graph{
@@ -86,17 +92,19 @@ justify-content:space-between;
 .perf{
     width:100%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     &_poids p{        
         font-size:16px;
-        font-family:"montserrat";
+        font-family:'Roboto';
     padding-top:10px;}
     &_date{
         h2{
-            margin-bottom:1px;}        
+            margin-top:0;
+        margin-bottom:10px;
+        color:$gris;}        
         p{
         font-size:16px;
-        font-family:"montserrat";
+        font-family:'Roboto';
         margin-top:1px;}
         }
     &_graph{
