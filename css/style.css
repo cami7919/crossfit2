@@ -1,8 +1,12 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Open Sans Condensed", sans-serif;
-  margin: 2%;
+  margin: 0px;
   box-sizing: border-box;
+}
+
+header, main {
+  margin: 3%;
 }
 
 h2 {
@@ -116,6 +120,7 @@ h2 {
 footer {
   margin-top: 10px;
   display: flex;
+  gap: 10%;
   font-size: 22px;
   justify-content: space-evenly;
   color: #bdb8b8;
